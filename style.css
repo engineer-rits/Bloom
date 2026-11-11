@@ -1,2 +1,143 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap');
 :root{--ink:#302d3a;--muted:#777383;--cream:#fbf9f7;--lav:#c9b8ec;--deep:#7866a4;--line:#eee9ef}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--cream);color:var(--ink);font-family:'DM Sans',sans-serif}a{text-decoration:none;color:inherit}.container{width:min(1100px,calc(100% - 48px));margin:auto}.nav{height:78px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid var(--line)}.brand{font:800 20px Manrope;letter-spacing:-1px}.brand-icon{display:inline-grid;place-items:center;width:32px;height:32px;background:#e9e0f6;border-radius:50%;color:var(--deep);margin-right:7px}.nav-links{display:flex;align-items:center;gap:30px;font-size:12px;font-weight:600;color:#777383}.nav-pill{background:#393545;color:white;padding:12px 17px;border-radius:30px}.menu-toggle{display:none;border:0;background:none;font-size:24px}.hero{min-height:555px;display:grid;grid-template-columns:1fr 1fr;align-items:center;gap:35px;padding-top:55px;padding-bottom:65px}.eyebrow{font-size:10px;font-weight:700;letter-spacing:2px;color:#8b7da3}.eyebrow span{color:#b49bdf;font-size:15px;margin-right:6px}.hero h1,h2{font:800 clamp(43px,5vw,62px)/1.1 Manrope;letter-spacing:-3px;margin:24px 0}.hero h1 em,h2 em{font-style:normal;color:#a58dcc}.hero-copy>p,.section-heading>p,.checkin-copy>p{max-width:450px;font-size:15px;line-height:1.85;color:var(--muted)}.btn{display:inline-flex;gap:35px;align-items:center;background:#393545;color:white;padding:15px 20px;border-radius:30px;font-size:12px;font-weight:700;margin-top:23px;transition:.2s}.btn:hover{transform:translateY(-3px);box-shadow:0 10px 20px #40384f24}.btn span{color:#d8c9f0}.tiny-note{font-size:10px;color:#9994a0;margin-top:24px}.hero-visual{height:420px;position:relative;display:grid;place-items:center}.orb{position:absolute;border-radius:50%}.orb-back{width:345px;height:345px;background:#eee8f6;right:10%;top:7%}.orb-front{width:265px;height:265px;background:linear-gradient(145deg,#d6c6ef,#a88bcf);display:grid;place-items:center;color:white;box-shadow:inset -20px -20px 45px #7f69a533,0 25px 60px #7c66912b;animation:float 6s ease-in-out infinite}.orb-front:before{content:"";position:absolute;width:205px;height:205px;border:1px solid #ffffff80;border-radius:50%}.orb-front span{font:700 37px/1.1 Manrope;letter-spacing:-1.5px;text-align:center}.orb-front i{position:absolute;font-style:normal;font-size:32px;right:53px;top:54px}@keyframes float{50%{transform:translateY(-10px)}}.float-word{position:absolute;background:#fff;padding:12px 17px;border-radius:30px;box-shadow:0 8px 24px #3d34501a;font-size:10px;font-weight:700;letter-spacing:.4px}.word-top{top:46px;left:3%;transform:rotate(-7deg)}.word-bottom{bottom:47px;right:0;transform:rotate(5deg);background:#e4d9f3}.leaf{position:absolute;color:#b7a2d8}.leaf-one{font-size:47px;left:7%;bottom:75px}.leaf-two{font-size:35px;right:9%;top:40px}.quote-band{background:#eee8f5;text-align:center;padding:50px 20px}.quote-mark{font:800 65px Georgia;color:#a58dcc;height:38px}.quote-band p{font:700 24px/1.45 Manrope;letter-spacing:-.8px}.quote-band p em{font-style:normal;color:#8d77b4}.quote-band>span{font-size:9px;letter-spacing:2px;color:#8a8194;font-weight:700}.section{padding-top:100px;padding-bottom:100px}.section-heading{text-align:center}.section-heading h2{font-size:43px;margin:15px 0}.section-heading>p{margin:0 auto}.breath-card{margin:48px auto 0;max-width:850px;min-height:330px;background:#f0ebf6;border:1px solid #e6deef;border-radius:24px;display:flex;align-items:center;justify-content:center;gap:65px;padding:45px;position:relative;overflow:hidden}.breath-halo{position:absolute;width:300px;height:300px;border-radius:50%;background:#e4daf2;left:10%;top:50%;transform:translateY(-50%)}.breath-circle{z-index:1;width:190px;height:190px;border-radius:50%;background:linear-gradient(145deg,#c7b3e6,#8d78b5);display:grid;place-items:center;color:white;box-shadow:0 0 0 18px #d9cceb80,0 0 0 36px #e6def180;transition:transform 4s ease-in-out}.breath-circle span{font:700 19px Manrope}.breath-circle.inhale{transform:scale(1.18)}.breath-circle.exhale{transform:scale(.86)}.breath-content{z-index:1;max-width:320px}.mini-label{font-size:9px;font-weight:700;letter-spacing:1.6px;color:#8c7ca3}.breath-content h3{font:800 25px Manrope;letter-spacing:-1px;margin:12px 0}.breath-content p{font-size:12px;line-height:1.7;color:var(--muted)}.breath-content .btn{margin:10px 0 12px}.breath-content small{display:block;font-size:9px;color:#8c8794}.toolkit-section{background:#f1edf4;padding:85px 0}.toolkit-head{display:flex;justify-content:space-between;align-items:end}.toolkit-head h2{font-size:43px;margin:14px 0 35px}.toolkit-head>p{max-width:340px;color:var(--muted);font-size:13px;line-height:1.8;margin-bottom:39px}.tool-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:17px}.tool-card{background:#fff;border:1px solid #e9e3ec;border-radius:17px;padding:25px;min-height:245px}.tool-symbol{display:grid;place-items:center;width:44px;height:44px;border-radius:13px;font-size:22px;margin-bottom:22px}.symbol-lilac{background:#eee6f8;color:#8b72b5}.symbol-peach{background:#f8e8df;color:#b47f69}.symbol-green{background:#e6efe5;color:#66846c}.tool-card h3{font:800 18px Manrope;margin:10px 0}.tool-card p{font-size:12px;color:var(--muted);line-height:1.7;min-height:60px}.tool-card>a{font-size:11px;font-weight:700;color:#8b72b5}.checkin{display:grid;grid-template-columns:1fr 1fr;gap:65px;align-items:center;padding-top:100px;padding-bottom:100px}.checkin-copy h2{font-size:44px}.checkin-panel{border:1px solid var(--line);border-radius:20px;background:white;padding:28px;box-shadow:0 15px 45px #40384f0a}.mood-options{display:grid;grid-template-columns:repeat(5,1fr);gap:8px}.mood-options button{border:1px solid #eee9f1;background:#fbf9fc;border-radius:13px;padding:13px 4px;cursor:pointer;color:#6f6383;transition:.2s}.mood-options button:hover,.mood-options button.selected{background:#eee7f7;border-color:#c6b4e2;transform:translateY(-3px)}.mood-options span,.mood-options small{display:block}.mood-options span{font-size:23px}.mood-options small{font-size:9px;margin-top:6px}.checkin-result{font-size:12px;color:#777383;line-height:1.6;margin:22px 0 12px;min-height:35px}.clear-btn{border:0;background:none;padding:0;color:#9486a5;font:600 10px 'DM Sans';cursor:pointer}.footer{border-top:1px solid var(--line);height:auto;min-height:75px;display:flex;align-items:center;justify-content:space-between;font-size:10px;color:#9994a0}.footer .brand{color:var(--ink)}@media(max-width:760px){.nav{height:67px}.menu-toggle{display:block}.nav-links{display:none;position:absolute;z-index:4;top:67px;left:0;right:0;padding:22px 24px;background:var(--cream);border-bottom:1px solid var(--line);flex-direction:column;align-items:flex-start}.nav-links.open{display:flex}.hero{grid-template-columns:1fr;padding-top:55px}.hero h1{font-size:48px}.hero-visual{height:360px}.section{padding:70px 0}.breath-card{flex-direction:column;gap:38px;text-align:center;padding:35px 20px}.breath-halo{left:50%;transform:translate(-50%,-50%)}.toolkit-head{display:block}.toolkit-head h2,.section-heading h2{font-size:36px}.toolkit-head>p{margin-bottom:25px}.tool-grid{grid-template-columns:1fr}.checkin{grid-template-columns:1fr;gap:30px;padding:70px 0}.checkin-copy h2{font-size:38px}.mood-options{gap:5px}.mood-options button{padding:10px 2px}.footer{padding:20px 0;gap:12px;flex-wrap:wrap}.footer>span:nth-child(2){order:3;width:100%}}
+
+/* =========================================
+   BLOOM — TYPOGRAPHY & READABILITY UPDATE
+   ========================================= */
+
+/* Navigation */
+.nav-links {
+  font-size: 14px;
+}
+
+/* Brand */
+.brand {
+  font-size: 22px;
+}
+
+/* Labels and small headings */
+.eyebrow {
+  font-size: 12px;
+}
+
+.tiny-note {
+  font-size: 13px;
+}
+
+/* Main paragraphs */
+.hero-copy > p,
+.section-heading > p,
+.checkin-copy > p {
+  font-size: 16px;
+  line-height: 1.8;
+}
+
+/* Buttons */
+.btn {
+  font-size: 14px;
+}
+
+/* Floating labels */
+.float-word {
+  font-size: 12px;
+}
+
+/* Quote section */
+.quote-band > span {
+  font-size: 11px;
+}
+
+/* Breathing exercise */
+.mini-label {
+  font-size: 11px;
+}
+
+.breath-content h3 {
+  font-size: 27px;
+}
+
+.breath-content p {
+  font-size: 15px;
+  line-height: 1.8;
+}
+
+.breath-content small {
+  font-size: 12px;
+}
+
+/* Toolkit section */
+.toolkit-head > p {
+  font-size: 15px;
+  line-height: 1.8;
+}
+
+.tool-card {
+  padding: 27px;
+}
+
+.tool-card h3 {
+  font-size: 20px;
+}
+
+.tool-card p {
+  font-size: 14px;
+  line-height: 1.8;
+}
+
+.tool-card > a {
+  font-size: 13px;
+}
+
+/* Mood check-in */
+.mood-options small {
+  font-size: 12px;
+}
+
+.checkin-result {
+  font-size: 14px;
+  line-height: 1.8;
+}
+
+.clear-btn {
+  font-size: 12px;
+}
+
+/* Footer */
+.footer {
+  font-size: 12px;
+}
+
+/* Mobile readability */
+@media (max-width: 760px) {
+  .nav-links {
+    font-size: 15px;
+    gap: 22px;
+  }
+
+  .hero-copy > p,
+  .section-heading > p,
+  .checkin-copy > p {
+    font-size: 16px;
+  }
+
+  .toolkit-head > p {
+    font-size: 15px;
+  }
+
+  .tool-card p {
+    font-size: 15px;
+  }
+
+  .breath-content p {
+    font-size: 15px;
+  }
+
+  .mood-options small {
+    font-size: 11px;
+  }
+
+  .footer {
+    font-size: 12px;
+  }
+}
+
